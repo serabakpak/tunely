@@ -5,6 +5,10 @@ var db = require("./models");
 
 var albumsList =[
   // put data here!
+  {albumName: "Anti",
+   artistName: "Rihanna",
+   releasedDate: "January 2016"
+  }
 ];
 
 db.Album.remove({}, function(err, albums){
